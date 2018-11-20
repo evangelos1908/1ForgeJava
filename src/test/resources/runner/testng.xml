@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Check Market Status and store values to csv">
+    <test name="Check Market Status and store values to csv">
+        <classes>
+            <class name="api.get.QuotesToCSV"/>
+            <class name="api.get.ValidateMarketStatus"/>
+        </classes>
+    </test>
+</suite>
+
